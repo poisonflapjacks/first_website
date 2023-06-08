@@ -1,30 +1,52 @@
-img {
-    width: 75%;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-    margin: auto;
-    display: block;
-}
-
-.text {
-    text-align: center;
-    color: #357250;
-    font-size: 6vw;
-}
-
 body {
-    background-color: lightgoldenrodyellow;
+    background-color:rgb(250, 170, 85);
     /*more specific color selections can be made using 
     #rrggbbaa where each letter is a hex value and 'a' represents opacity*/
 }
 
-.box{
-    height: 100px;
-    width: 50%;
-    padding: 20px;
+img {
+    width: 150px;
+    border-radius: 25%;
+}
+
+ul {
+    list-style-type: none;
+    margin: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+li {
+    float: left;
+}
+  
+li a {
     display: block;
-    margin: auto;
-    margin-top: 25%;
-    border: 10px solid black;
-    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #c6822e;
+}
+
+.title {
+    margin: 5%;
+    margin-left: 5px;
+    font-size: 6vw;
+    color: white;
+}
+
+.msg{
+    width: 75%;
+    font-size: small;
+    color: white;
 }
